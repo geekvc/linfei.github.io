@@ -13,13 +13,9 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-## 【临时】域名 linfei.wang 尚未完成 DNS 解析绑定前，先用 GitHub 分配的项目页地址，
-## 保证 https://geekvc.github.io/linfei.github.io/ 能正常访问（否则资源路径会错位导致页面乱版）。
-## 待域名解析生效、GitHub Pages 里绑定好 linfei.wang 后，把下面两行改回：
-##   url: https://linfei.wang
-##   root: /
-url: https://geekvc.github.io/linfei.github.io
-root: /linfei.github.io/
+## 已完成 linfei.wang 域名绑定 + HTTPS，使用正式域名
+url: https://linfei.wang
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
