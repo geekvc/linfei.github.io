@@ -8,8 +8,8 @@
 (function () {
   'use strict'
 
-  // TODO: 部署好 Cloudflare Worker 后，把下面这行换成你自己的 Worker 地址
-  var API_ENDPOINT = 'https://linfei-ai-chat.YOUR_SUBDOMAIN.workers.dev'
+  // 已配置好的 Cloudflare Worker 地址（智谱 AI GLM-4-Flash 反向代理）
+  var API_ENDPOINT = 'https://mute-queen-eb4clinfei-ai-chat.uavdji-3e5.workers.dev'
 
   var WIDGET_ID = 'ai-chat-widget-root'
   var STORAGE_KEY = 'ai_chat_history_v1'
