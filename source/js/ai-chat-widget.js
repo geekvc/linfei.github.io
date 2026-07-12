@@ -56,7 +56,7 @@
     root.id = WIDGET_ID
 
     var toggleBtn = el('button', 'ai-chat-toggle', '<i class="fas fa-comment-dots"></i>')
-    toggleBtn.setAttribute('aria-label', '和林飞的AI分身聊聊')
+    toggleBtn.setAttribute('aria-label', '和琳霏的AI分身聊聊')
     toggleBtn.type = 'button'
 
     var panel = el('div', 'ai-chat-panel')
@@ -65,7 +65,7 @@
         '<div class="ai-chat-header-info">' +
           '<img class="ai-chat-avatar" src="/img/avatar.jpg" alt="avatar">' +
           '<div>' +
-            '<div class="ai-chat-title">数字林飞</div>' +
+            '<div class="ai-chat-title">数字琳霏</div>' +
             '<div class="ai-chat-subtitle">在线 · AI 分身 · 可询问求职/联系方式</div>' +
           '</div>' +
         '</div>' +
@@ -109,7 +109,7 @@
     function renderHistory() {
       messagesEl.innerHTML = ''
       if (history.length === 0) {
-        appendMessage('assistant', '你好呀 👋 我是「数字林飞」，可以问我关于学习经历、求职方向或者怎么联系到我～')
+        appendMessage('assistant', '你好呀 👋 我是「数字琳霏」，可以问我关于学习经历、求职方向或者怎么联系到我～')
       } else {
         history.forEach(function (m) { appendMessage(m.role, m.content) })
       }
@@ -183,7 +183,7 @@
         })
         .catch(function () {
           loadingBubble.parentElement.remove()
-          appendMessage('assistant', '网络似乎出了点问题，请稍后重试，或直接通过「关于我」页面的联系方式联系林飞～')
+          appendMessage('assistant', '网络似乎出了点问题，请稍后重试，或直接通过「关于我」页面的联系方式联系琳霏～')
         })
         .finally(function () { isSending = false })
     }

@@ -2,7 +2,7 @@
   "name": "linfei-blog",
   "version": "1.0.0",
   "private": true,
-  "description": "林飞的个人博客 - 石河子大学英语专业硕士求职与学习干货站，Hexo + Butterfly + GitHub Pages",
+  "description": "王琳霏的个人博客 - 石河子大学英语专业硕士求职与学习干货站，Hexo + Butterfly + GitHub Pages",
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",

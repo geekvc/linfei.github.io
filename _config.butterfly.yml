@@ -28,8 +28,8 @@ menu:
 # Social media links
 # --------------------------------------
 social:
-  fab fa-github: https://github.com/your-github || GitHub || '#24292e'
-  fas fa-envelope: mailto:your-email@example.com || Email || '#4a7dbe'
+  fas fa-mobile-screen: tel:15628457313 || 手机 · 微信 || '#4a7dbe'
+  fas fa-envelope: mailto:1771641605@qq.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -53,8 +53,8 @@ subtitle:
   source: false
   sub:
     - 石河子大学英语专业硕士研究生
-    - 求职 · 学习 · 分享干货
-    - Welcome to my blog ✨
+    - 求职 · 教学 · 分享干货
+    - 大家好，我是琳霏 ✨
 
 index_layout: 3
 
@@ -74,7 +74,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 石河子大学英语专业硕士研究生 · 求职与学习记录中，欢迎交流 👋
+    description: 石河子大学英语专业硕士研究生 · 求职与教学经验分享中，欢迎交流 👋
     button:
       enable: true
       icon: fas fa-id-card
@@ -82,7 +82,7 @@ aside:
       link: /resume/
   card_announcement:
     enable: true
-    content: 欢迎来到我的博客！这里记录英语专业求职与学习干货，右下角可以和我的 AI 分身聊天，了解更多关于我～
+    content: 欢迎来到琳霏的博客！这里记录英语专业求职与教学干货，右下角可以和我的 AI 分身聊天，了解更多关于我～
   card_recent_post:
     enable: true
     limit: 5
