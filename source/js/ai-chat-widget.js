@@ -2,14 +2,14 @@
  * AI 数字分身悬浮聊天框
  * 纯前端实现，无框架依赖，兼容 Butterfly 主题的 pjax 局部刷新
  *
- * 使用前请先完成 /cloudflare-worker/README.md 里的部署步骤，
- * 并把下面的 API_ENDPOINT 换成你自己的 Cloudflare Worker 地址。
+ * 后端使用腾讯云函数（SCF）+ 函数URL 反向代理智谱 AI GLM-4-Flash，
+ * 详见 /tencent-scf/README.md
  */
 (function () {
   'use strict'
 
-  // 已配置好的 Cloudflare Worker 地址（智谱 AI GLM-4-Flash 反向代理）
-  var API_ENDPOINT = 'https://mute-queen-eb4clinfei-ai-chat.uavdji-3e5.workers.dev'
+  // 腾讯云函数 URL（智谱 AI GLM-4-Flash 反向代理，国内网络稳定）
+  var API_ENDPOINT = 'https://1251208346-08krym2lcu.ap-shanghai.tencentscf.com'
 
   var WIDGET_ID = 'ai-chat-widget-root'
   var STORAGE_KEY = 'ai_chat_history_v1'
